@@ -1,0 +1,21 @@
+{
+  "name": "polling-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "create-schema": "node schema/pollSchema.js" 
+  },
+  "author": "SriaxX",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "kafkajs": "^2.2.4",
+    "nodemon": "^3.1.9",
+    "pg": "^8.13.1",
+    "ws": "^8.18.0"
+  }
+}
